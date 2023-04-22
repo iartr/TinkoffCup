@@ -7,7 +7,7 @@ android {
     compileSdk = DefaultConfig.compileSdk
 
     defaultConfig {
-        namespace = DefaultConfig.getAppId(".design")
+        namespace = DefaultConfig.getAppId(".utils")
         minSdk = DefaultConfig.minSdk
         targetSdk = DefaultConfig.targetSdk
     }
@@ -25,7 +25,5 @@ android {
 dependencies {
     implementation(Libs.androidKtx)
     implementation(Libs.androidAppCompat)
-    implementation(Libs.javaxInject)
-    implementation(Libs.rxJava)
     testImplementation(LibsTest.junit4)
 }

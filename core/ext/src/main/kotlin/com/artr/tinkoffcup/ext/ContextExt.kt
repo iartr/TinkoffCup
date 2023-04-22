@@ -42,7 +42,6 @@ import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
 import androidx.core.graphics.drawable.DrawableCompat
-import io.reactivex.rxjava3.functions.Consumer
 import java.io.File
 
 private val handler by lazy { Handler(Looper.getMainLooper()) }
@@ -213,14 +212,6 @@ private fun createSpan(d: Drawable): Spannable {
     val sp = Spannable.Factory.getInstance().newSpannable("F")
     sp.setSpan(ImageSpan(d, ImageSpan.ALIGN_BOTTOM), 0, 1, 0)
     return sp
-}
-
-fun Context.startActivitySafe(intent: Intent, onError: Consumer<Throwable>? = null) {
-    try {
-        startActivity(intent)
-    } catch (t: Throwable) {
-        onError?.accept(t)
-    }
 }
 
 fun Context.getLayoutInflater() = getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater

@@ -30,7 +30,6 @@ dependencies {
     implementation(Libs.androidMaterial)
     implementation(Libs.androidActivity)
     implementation(Libs.androidFragment)
-    implementation(Libs.androidAnnotation)
     implementation(Libs.androidLegacySupport)
     testImplementation(LibsTest.junit4)
 }

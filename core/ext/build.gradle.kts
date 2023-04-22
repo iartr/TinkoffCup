@@ -27,5 +27,4 @@ android {
 dependencies {
     implementation(Libs.androidAppCompat)
     implementation(Libs.androidKtx)
-    implementation(Libs.rxJava)
 }

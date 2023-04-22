@@ -81,41 +81,19 @@ dependencies {
     implementation(Libs.androidPreference)
     implementation(Libs.androidLegacySupport)
     implementation(Libs.androidMaterial)
-
     implementation(Libs.lifecycleRuntime)
     implementation(Libs.lifecycleViewModel)
     implementation(Libs.lifecycleViewModelSaveState)
     implementation(Libs.lifecycleLiveData)
-    implementation(Libs.lifecycleRx)
-
-    implementation(Libs.cicerone)
-    implementation(Libs.koin)
-
-    implementation(Libs.rxJava)
-    implementation(Libs.rxKotlin)
-    implementation(Libs.rxAndroid)
-
-    implementation(platform(Libs.okHttp))
-    implementation(Libs.okHttpLogger)
-    implementation(Libs.okHttpMockWebServer)
-    implementation(Libs.retrofit)
-    implementation(Libs.retrofitRxSupport)
-    implementation(Libs.retrofitJsonReader)
-    implementation(Libs.retrofitScalars)
-    implementation(Libs.gson)
 
     implementation(Libs.glide)
     kapt(Libs.glideCompiler)
 
     implementation(project(":core:utils"))
     implementation(project(":core:ext"))
-    implementation(project(":core:design"))
-    implementation(project(":core:mvvm"))
-    implementation(project(":core:network"))
+    implementation(project(":core:designsystem"))
 
     testImplementation(LibsTest.junit4)
-    testImplementation(LibsTest.okhttpMockWebServer)
-    testImplementation(LibsTest.koinTest)
     androidTestImplementation(LibsTest.androidJunit)
     androidTestImplementation(LibsTest.androidEspressoCore)
 }
