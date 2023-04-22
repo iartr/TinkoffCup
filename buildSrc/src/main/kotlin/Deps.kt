@@ -76,7 +76,7 @@ object LibsTest {
 }
 
 object Versions {
-    const val ANDROID_GRADLE_PLUGIN_VERSION = "8.0.0"
+    const val ANDROID_GRADLE_PLUGIN_VERSION = "7.4.2"
     const val DESUGAR_VERSION = "1.1.5"
 
     const val KOTLIN_VERSION = "1.8.20"
