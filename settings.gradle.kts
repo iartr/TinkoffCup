@@ -18,6 +18,4 @@ rootProject.name = "Tinkoff Cup"
 include(":demoapp")
 
 include(":core")
-include(":core:utils")
 include(":core:designsystem")
-include(":core:ext")

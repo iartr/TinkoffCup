@@ -1,4 +1,4 @@
-package com.artr.tinkoffcup.ext
+package com.artr.tinkoffcup.designsystem
 
 import android.content.res.Resources
 

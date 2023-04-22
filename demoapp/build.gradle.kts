@@ -89,8 +89,6 @@ dependencies {
     implementation(Libs.glide)
     kapt(Libs.glideCompiler)
 
-    implementation(project(":core:utils"))
-    implementation(project(":core:ext"))
     implementation(project(":core:designsystem"))
 
     testImplementation(LibsTest.junit4)
