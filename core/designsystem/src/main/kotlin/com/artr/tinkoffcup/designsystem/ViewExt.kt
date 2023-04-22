@@ -6,7 +6,7 @@ import android.widget.FrameLayout
 import androidx.annotation.Px
 import androidx.constraintlayout.widget.ConstraintLayout
 
-fun View.setVisible(visible: Boolean) {
+internal fun View.setVisible(visible: Boolean) {
     if (visible) {
         visibility = View.VISIBLE
     } else {
@@ -14,7 +14,7 @@ fun View.setVisible(visible: Boolean) {
     }
 }
 
-fun View.setMarginStart(start: Int) {
+internal fun View.setMarginStart(start: Int) {
     val lp = this.layoutParams
     if (lp is ViewGroup.MarginLayoutParams && lp.marginStart != start) {
         lp.marginStart = start
@@ -22,7 +22,7 @@ fun View.setMarginStart(start: Int) {
     }
 }
 
-fun View.setMarginEnd(end: Int) {
+internal fun View.setMarginEnd(end: Int) {
     val lp = this.layoutParams
     if (lp is ViewGroup.MarginLayoutParams && lp.marginEnd != end) {
         lp.marginEnd = end
@@ -30,7 +30,7 @@ fun View.setMarginEnd(end: Int) {
     }
 }
 
-fun View.setMarginBottom(margin: Int) {
+internal fun View.setMarginBottom(margin: Int) {
     val lp = this.layoutParams
     val bottomMargin = when (lp) {
         is ViewGroup.MarginLayoutParams -> lp.bottomMargin
@@ -48,7 +48,7 @@ fun View.setMarginBottom(margin: Int) {
     }
 }
 
-fun View.setMarginTop(@Px top: Int) {
+internal fun View.setMarginTop(@Px top: Int) {
     val lp = layoutParams
     if (lp is ViewGroup.MarginLayoutParams) {
         if (lp.topMargin != top) {
@@ -58,7 +58,7 @@ fun View.setMarginTop(@Px top: Int) {
     }
 }
 
-fun View.setMargins(@Px start: Int, @Px top: Int, @Px end: Int, @Px bottom: Int) {
+internal fun View.setMargins(@Px start: Int, @Px top: Int, @Px end: Int, @Px bottom: Int) {
     val lp = layoutParams
     if (lp is ViewGroup.MarginLayoutParams &&
         (lp.marginStart != start || lp.topMargin != top || lp.marginEnd != end || lp.bottomMargin != bottom)) {

@@ -4,6 +4,11 @@ import android.content.Context
 import android.util.AttributeSet
 import androidx.cardview.widget.CardView
 
+/**
+ * Tinkoff card with lists
+ * Customization:
+ * 1. in progress
+ */
 class TinkoffCardWithList @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,

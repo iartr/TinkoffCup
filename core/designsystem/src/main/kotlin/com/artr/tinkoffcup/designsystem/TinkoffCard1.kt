@@ -8,6 +8,13 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.core.content.withStyledAttributes
 
+/**
+ * Tinkoff card with title, description, start image and end close icon
+ * Customization:
+ * 1. app:card_title - title text
+ * 2. app:card_description - description text
+ * 3. app:end_icon_visible - set close icon visibility
+ */
 class TinkoffCard1 @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,

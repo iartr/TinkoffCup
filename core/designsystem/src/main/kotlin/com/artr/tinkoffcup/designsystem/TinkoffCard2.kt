@@ -14,6 +14,17 @@ import androidx.core.content.withStyledAttributes
 import androidx.core.view.isVisible
 import androidx.core.view.marginTop
 
+/**
+ * Tinkoff card with header, subheader, button and star icon
+ * Customization:
+ * 1. app:card_header - header text
+ * 2. app:card_subheader - subheader text
+ * 3. app:card_button - button text
+ * 4. app:subheader_visible - set subheader visibility
+ * 5. app:button_visible - set button visibility
+ *
+ * view.setOnButtonClickListener - set click listener on button
+ */
 class TinkoffCard2 @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
