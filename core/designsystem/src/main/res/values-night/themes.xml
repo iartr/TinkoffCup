@@ -1,7 +1,7 @@
 <resources>
 
     <!-- -->
-    <style name="Theme.TinkoffCup.NoActionBar" parent="Theme.Material3.Light">
+    <style name="Theme.TinkoffCup.NoActionBar" parent="Theme.AppCompat.DayNight.NoActionBar">
         <item name="colorPrimary">@color/tinkoff_white</item>
         <item name="colorOnPrimary">@color/tinkoff_black</item>
         <item name="colorSecondary">@color/tinkoff_white</item>
@@ -18,5 +18,10 @@
 
         <item name="tinkoff_text">@color/tinkoff_white</item>
         <item name="tinkoff_subtext">@color/tinkoff_gray</item>
+        <item name="tinkoff_button_text">@color/tinkoff_blue</item>
+        <item name="tinkoff_button_text_disabled">@color/tinkoff_blue_alpha50</item>
+        <item name="tinkoff_button_ripple">@color/tinkoff_gray</item>
+        <item name="tinkoff_button_background">@color/tinkoff_gray_alpha3</item>
+        <item name="tinkoff_button_background_disabled">@color/tinkoff_gray_alpha2</item>
     </style>
 </resources>

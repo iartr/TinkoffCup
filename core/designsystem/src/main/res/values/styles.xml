@@ -40,7 +40,8 @@
         <item name="android:lineSpacingExtra">15sp</item>
     </style>
 
-    <!--<style name="TinkoffButton">
+    <!-- ============== BUTTON ============== -->
+    <style name="TinkoffButton">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:ellipsize">end</item>
@@ -48,11 +49,13 @@
         <item name="android:singleLine">true</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:stateListAnimator">@null</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:background">@drawable/tinkoff_button_background</item>
+        <item name="android:textColor">@color/tinkoff_button_text_color</item>
+    </style>
 
-        <item name="android:textSize">16sp</item>
-        <item name="android:fontFamily"></item>
-
-        <item name="android:background">@drawable/vkui_bg_button_primary</item>
-        <item name="android:textColor">@color/vk_primary_button_text</item>
-    </style>-->
+    <style name="TinkoffButton.Text">
+        <item name="android:backgroundTint">?attr/colorSurface</item>
+    </style>
 </resources>

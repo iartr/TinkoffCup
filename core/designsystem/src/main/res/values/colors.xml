@@ -4,6 +4,8 @@
     <color name="tinkoff_neutral">#F6F7F8</color>
     <color name="tinkoff_gray">#9299A2</color>
     <color name="tinkoff_gray_alpha3">#08001024</color>
+    <color name="tinkoff_gray_alpha2">#02001024</color>
     <color name="tinkoff_gray_alpha6">#0F001024</color>
     <color name="tinkoff_blue">#428BF9</color>
+    <color name="tinkoff_blue_alpha50">#80428BF9</color>
 </resources>

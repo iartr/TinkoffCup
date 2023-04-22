@@ -47,4 +47,20 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Description" />
+
+    <Button
+        android:id="@+id/tinkoff_sample_button"
+        style="@style/TinkoffButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/tinkoff_sample_textbutton"
+        style="@style/TinkoffButton.Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Text Button" />
 </LinearLayout>
