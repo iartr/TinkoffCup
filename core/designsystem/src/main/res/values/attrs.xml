@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="tinkoff_text" format="color|reference" />
+    <attr name="tinkoff_subtext" format="color|reference" />
+    <attr name="tinkoff_button_text" format="color|reference" />
+    <attr name="tinkoff_button_text_disabled" format="color|reference" />
+    <attr name="tinkoff_button_ripple" format="color|reference" />
+    <attr name="tinkoff_button_background" format="color|reference" />
+    <attr name="tinkoff_button_background_disabled" format="color|reference" />
+    <attr name="tinkoff_card_background_color" format="color|reference" />
+
+    <declare-styleable name="TinkoffCard1">
+        <attr name="card_title" format="string"/>
+        <attr name="card_description" format="string"/>
+        <attr name="end_icon_visible" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="TinkoffCard2">
+        <attr name="card_header" format="string"/>
+        <attr name="card_subheader" format="string"/>
+        <attr name="card_button" format="string"/>
+        <attr name="subheader_visible" format="boolean"/>
+        <attr name="button_visible" format="boolean"/>
+    </declare-styleable>
+</resources>

@@ -1,66 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:paddingStart="16dp"
-    android:paddingEnd="16dp"
-    tools:context=".MainActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <TextView
-        android:id="@+id/tinkoff_sample_header"
-        style="@style/TinkoffText.Header"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Header" />
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tinkoff_sample_subheader"
-        style="@style/TinkoffText.Subheader"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Subheader" />
+        <TextView
+            android:id="@+id/tinkoff_sample_block_texts"
+            style="@style/TinkoffText.Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Texts:" />
 
-    <TextView
-        android:id="@+id/tinkoff_sample_title"
-        style="@style/TinkoffText.Title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Title" />
+        <TextView
+            android:id="@+id/tinkoff_sample_header"
+            style="@style/TinkoffText.Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Header" />
 
-    <TextView
-        android:id="@+id/tinkoff_sample_subtitle"
-        style="@style/TinkoffText.Subtitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Subtitle" />
+        <TextView
+            android:id="@+id/tinkoff_sample_subheader"
+            style="@style/TinkoffText.Subheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Subheader" />
 
-    <TextView
-        android:id="@+id/tinkoff_sample_description"
-        style="@style/TinkoffText.Description"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Description" />
+        <TextView
+            android:id="@+id/tinkoff_sample_title"
+            style="@style/TinkoffText.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Title" />
 
-    <Button
-        android:id="@+id/tinkoff_sample_button"
-        style="@style/TinkoffButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Button" />
+        <TextView
+            android:id="@+id/tinkoff_sample_subtitle"
+            style="@style/TinkoffText.Subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Subtitle" />
 
-    <Button
-        android:id="@+id/tinkoff_sample_textbutton"
-        style="@style/TinkoffButton.Text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Text Button" />
-</LinearLayout>
+        <TextView
+            android:id="@+id/tinkoff_sample_description"
+            style="@style/TinkoffText.Description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Description" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginTop="8dp"
+            android:background="?attr/tinkoff_text" />
+
+        <TextView
+            android:id="@+id/tinkoff_sample_block_buttons"
+            style="@style/TinkoffText.Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Buttons:" />
+
+        <Button
+            android:id="@+id/tinkoff_sample_button"
+            style="@style/TinkoffButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/tinkoff_sample_textbutton"
+            style="@style/TinkoffButton.Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Text Button" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginTop="8dp"
+            android:background="?attr/tinkoff_text" />
+
+        <TextView
+            android:id="@+id/tinkoff_sample_block_cards"
+            style="@style/TinkoffText.Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Cards:" />
+
+        <com.artr.tinkoffcup.designsystem.TinkoffCard1
+            android:id="@+id/tinkoff_sample_card1"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:card_title="Title"
+            app:card_description="Description"
+            app:end_icon_visible="true" />
+
+        <com.artr.tinkoffcup.designsystem.TinkoffCard2
+            android:id="@+id/tinkoff_sample_card2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:card_header="Header"
+            app:card_subheader="Subheader"
+            app:card_button="Button"
+            app:subheader_visible="true"
+            app:button_visible="true" />
+
+        <com.artr.tinkoffcup.designsystem.TinkoffCard2
+            android:id="@+id/tinkoff_sample_card3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:card_header="Header"
+            app:subheader_visible="false"
+            app:button_visible="false" />
+    </LinearLayout>
+</ScrollView>

@@ -21,7 +21,8 @@
         <item name="tinkoff_button_text">@color/tinkoff_blue</item>
         <item name="tinkoff_button_text_disabled">@color/tinkoff_blue_alpha50</item>
         <item name="tinkoff_button_ripple">@color/tinkoff_gray</item>
-        <item name="tinkoff_button_background">@color/tinkoff_gray_alpha3</item>
+        <item name="tinkoff_button_background">@color/tinkoff_white</item>
         <item name="tinkoff_button_background_disabled">@color/tinkoff_gray_alpha2</item>
+        <item name="tinkoff_card_background_color">@color/tinkoff_gray_alpha3</item>
     </style>
 </resources>

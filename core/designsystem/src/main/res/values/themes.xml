@@ -1,12 +1,4 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <attr name="tinkoff_text" format="color|reference" />
-    <attr name="tinkoff_subtext" format="color|reference" />
-    <attr name="tinkoff_button_text" format="color|reference" />
-    <attr name="tinkoff_button_text_disabled" format="color|reference" />
-    <attr name="tinkoff_button_ripple" format="color|reference" />
-    <attr name="tinkoff_button_background" format="color|reference" />
-    <attr name="tinkoff_button_background_disabled" format="color|reference" />
-
     <!-- Base application theme. -->
     <style name="Theme.TinkoffCup.NoActionBar" parent="Theme.AppCompat.DayNight.NoActionBar">
         <item name="colorPrimary">@color/tinkoff_white</item>
@@ -30,6 +22,7 @@
         <item name="tinkoff_button_ripple">@color/tinkoff_gray</item>
         <item name="tinkoff_button_background">@color/tinkoff_gray_alpha3</item>
         <item name="tinkoff_button_background_disabled">@color/tinkoff_gray_alpha2</item>
+        <item name="tinkoff_card_background_color">@color/tinkoff_white</item>
     </style>
 
 </resources>

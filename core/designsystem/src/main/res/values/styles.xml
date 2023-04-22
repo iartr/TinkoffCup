@@ -19,6 +19,8 @@
     <style name="TinkoffText.Title">
         <item name="android:textColor">?attr/tinkoff_text</item>
         <item name="android:textSize">16sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
         <item name="android:lineSpacingExtra">19sp</item>
     </style>
 
@@ -56,6 +58,6 @@
     </style>
 
     <style name="TinkoffButton.Text">
-        <item name="android:backgroundTint">?attr/colorSurface</item>
+        <item name="android:backgroundTint">?android:colorBackground</item>
     </style>
 </resources>
