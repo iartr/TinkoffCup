@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <attr name="tinkoff_text" format="color|reference" />
+    <attr name="tinkoff_subtext" format="color|reference" />
+
+    <!-- Base application theme. -->
+    <style name="Theme.TinkoffCup.NoActionBar" parent="Theme.Material3.Light">
+        <item name="colorPrimary">@color/tinkoff_white</item>
+        <item name="colorOnPrimary">@color/tinkoff_black</item>
+        <item name="colorSecondary">@color/tinkoff_white</item>
+        <item name="colorOnSecondary">@color/tinkoff_black</item>
+        <item name="colorTertiary">@color/tinkoff_gray</item>
+        <item name="colorOnTertiary">@color/tinkoff_blue</item> <!-- -->
+        <item name="android:colorBackground">@color/tinkoff_white</item>
+        <item name="colorOnBackground">@color/tinkoff_black</item>
+        <item name="colorSurface">@color/tinkoff_white</item>
+        <item name="colorOnSurface">@color/tinkoff_black</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="tinkoff_text">@color/tinkoff_black</item>
+        <item name="tinkoff_subtext">@color/tinkoff_gray</item>
+    </style>
+
+</resources>

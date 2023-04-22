@@ -1,0 +1,9 @@
+<resources>
+    <color name="tinkoff_black">#000000</color>
+    <color name="tinkoff_white">#FFFFFF</color>
+    <color name="tinkoff_neutral">#F6F7F8</color>
+    <color name="tinkoff_gray">#9299A2</color>
+    <color name="tinkoff_gray_alpha3">#08001024</color>
+    <color name="tinkoff_gray_alpha6">#0F001024</color>
+    <color name="tinkoff_blue">#428BF9</color>
+</resources>

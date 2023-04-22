@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tinkoff_corner_radius_24dp">24dp</dimen>
+    <dimen name="tinkoff_corner_radius_12dp">12dp</dimen>
+
+    <dimen name="tinkoff_padding_20dp">20dp</dimen>
+    <dimen name="tinkoff_padding_16dp">16dp</dimen>
+    <dimen name="tinkoff_padding_12dp">12dp</dimen>
+</resources>
